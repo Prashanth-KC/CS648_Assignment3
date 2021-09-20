@@ -28,7 +28,7 @@
 * vRetain 1.0
 
 # Pricing.html
-## _This webpage display the pricing of the solutions offered_
+## _This webpage displays the pricing of the solutions offered_
 * $99 per month for vProspect
 * $99 per month for vConvert
 * $49 per month for vRetain
