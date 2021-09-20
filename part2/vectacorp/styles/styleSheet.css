@@ -1,0 +1,81 @@
+body {
+    width: 960px;
+    margin: 0px 0px 0px 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1em;
+    line-height: 2em;
+}
+
+ul:first-of-type {
+    list-style: none;
+    margin-top: 0%;
+    padding-left: 0px;
+}
+
+h2 {
+    color: #CC1C0D;
+    background-color: #DFE3E6;
+    border-radius: 5px;
+    padding-left: 10px;
+    border: 1px solid #929CA4;
+}
+
+a, a:link, h2 {
+    color: #CC1C0D;
+}
+
+p>img {
+    float: left;
+    padding-top: 10px;
+    margin-right: 5px;
+}
+
+section>img {
+    float: left;
+    margin-right: 20px;
+    border: 2px solid #CC1C0D;
+    border-radius: 50px;
+}
+
+section>p {
+    margin-top: 1px;
+}
+
+section.pricing>div>h3 {
+    border-top: solid;
+    border-top-width: 10px;
+    padding-top: 10px;
+    margin-bottom: 10px;
+}
+
+section.pricing>div {
+    float: left;
+    text-align: center;
+    margin-right: 5px;
+    border: 1px solid gray;
+    border-radius: 9px;
+    width: 233px;
+    height: 284px;
+    padding-top: 15px;
+}
+
+section.pricing>div:nth-of-type(1)>h3 {
+    border-color: #CC1C0D;
+}
+
+section.pricing>div:nth-of-type(2)>h3 {
+    border-color: #37A4A4;
+}
+
+section.pricing>div:nth-of-type(3)>h3 {
+    border-color: #685288;
+}
+
+section.pricing>div:nth-of-type(4)>h3 {
+    margin-top: 35px;
+    border-color: #000000;
+}
+
+p[id^="v"] {
+    font-weight: bold;
+}

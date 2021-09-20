@@ -1,0 +1,68 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1em;
+    line-height: 2em;
+    background-color: #EDEDED;
+}
+
+h3 {
+    color: red;
+    border-bottom: 1px solid #929CA4;
+}
+
+p:first-of-type::first-letter {
+    font-size: 30px;
+}
+
+p:first-child::first-letter {
+    font-size: 1em;
+}
+
+.solution {
+    color: #CC1C0D;
+    font-weight: bold;
+}
+
+#testimonial1, #testimonial2 {
+    margin: 50px;
+    font-style: italic;
+}
+
+/* Note: a:hover must come after a:link and a:visited in the CSS definition in order to be effective! 
+a:active MUST come after a:hover in the CSS definition in order to be effective! */
+
+/* unvisited link */
+a[href ^='http']:link {
+    color: blue;
+    text-decoration: underline;
+}
+
+/* visited link */
+a[href ^='http']:visited {
+    color: yellow;
+    text-decoration: line-through;
+}
+
+/* mouse hover link */
+a[href ^='http']:hover {
+    color: red;
+    text-decoration: none;
+}
+
+/* selected link */
+a[href ^='http']:active {
+    color: green;
+    text-decoration: overline;
+}
+
+ul {
+    list-style: none;
+}
+
+ul li:first-of-type {
+    color: blue;
+}
+
+ul li:last-of-type {
+    color: red;
+}
